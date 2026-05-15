@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, ArrowUpRight } from 'lucide-react';
-
 const projects = [
   {
     title: "AI Chatbot",
     category: "Machine Learning / React",
     description: "An intelligent conversational agent featuring natural language processing and a modern chat interface.",
-    image: "/ai_chatbot_preview_1778862419098.png",
+    image: "/ai_chatbot.png",
     tags: ["React", "Python", "NLP"],
     github: "https://github.com/bhoomikarani861",
     demo: "https://chat-bot-three-phi-98.vercel.app",
@@ -17,7 +16,7 @@ const projects = [
     title: "Voice Translator",
     category: "Speech AI / Web",
     description: "Real-time speech-to-speech translation platform with support for multiple regional languages.",
-    image: "/voice_translator_preview_1778862441919.png",
+    image: "/voice_translator.png",
     tags: ["Web Speech API", "React", "Next.js"],
     github: "https://github.com/bhoomikarani861",
     demo: "https://translator-hexf.vercel.app",
@@ -27,7 +26,7 @@ const projects = [
     title: "AI Image Generator",
     category: "Generative AI",
     description: "Creative tool that transforms text prompts into high-quality images using stable diffusion models.",
-    image: "/image_generator_preview_1778862463055.png",
+    image: "/image_generator.png",
     tags: ["Stable Diffusion", "Python", "React"],
     github: "https://github.com/bhoomikarani861",
     demo: "https://image-generator-five-umber.vercel.app/",
@@ -37,13 +36,14 @@ const projects = [
     title: "Student Management System",
     category: "Full Stack",
     description: "Comprehensive platform for educational institutions to manage student results and data efficiently.",
-    image: "/student_system_preview_1778862486802.png",
+    image: "/student_system.png",
     tags: ["React", "Firebase", "Tailwind"],
     github: "https://github.com/bhoomikarani861",
     demo: "https://smart-student-result-management-sys.vercel.app/login.html",
     featured: true
   }
 ];
+
 
 
 

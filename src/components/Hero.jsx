@@ -36,9 +36,14 @@ const Hero = () => {
                     View Projects <ExternalLink size={18} />
                   </button>
                 </Link>
-                <button className="btn-outline">
+                <a 
+                  href="/resume.pdf" 
+                  download="Bhoomikarani_J_Resume.pdf"
+                  className="btn-outline"
+                >
                   Download Resume <Download size={18} />
-                </button>
+                </a>
+
               </div>
             </motion.div>
           </div>
@@ -51,15 +56,23 @@ const Hero = () => {
             className="relative"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-tr from-primary-500 via-secondary-500 to-accent-500 animate-glow">
-              <div className="w-full h-full rounded-full overflow-hidden border-4 border-dark-bg bg-dark-surface">
+              <div className="w-full h-full rounded-full overflow-hidden border-4 border-dark-bg bg-dark-surface flex items-center justify-center text-center">
                 <img 
-                  src="/profile_picture_1778862316612.png" 
+                  src="/profile_picture.png.jpeg" 
                   alt="Bhoomikarani J" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[35%_center]"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
                 />
+                <div className="hidden absolute inset-0 flex-col items-center justify-center bg-dark-surface">
+                  <span className="text-4xl font-bold text-gradient">BJ</span>
+                  <span className="text-xs text-white/40 mt-2">Bhoomikarani J</span>
+                </div>
               </div>
-
             </div>
+
             
             {/* Floating Tags */}
             <motion.div
