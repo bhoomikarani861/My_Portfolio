@@ -81,9 +81,16 @@ const About = () => {
                 
                 <div className="relative pl-8">
                   <div className="absolute left-0 top-1 w-3 h-3 rounded-full bg-white/20" />
-                  <div className="text-sm text-white/40 font-bold mb-1">Primary & Secondary Education</div>
-                  <h4 className="text-lg font-bold">Foundation Years</h4>
-                  <p className="text-white/60">Focused on Mathematics and Computer Applications.</p>
+                  <div className="text-sm text-white/40 font-bold mb-1">2020 - 2022</div>
+                  <h4 className="text-lg font-bold">Class XII – PCMB (92.16%)</h4>
+                  <p className="text-white/60">Vishwamanava Composite PU College, Mandya</p>
+                </div>
+
+                <div className="relative pl-8">
+                  <div className="absolute left-0 top-1 w-3 h-3 rounded-full bg-white/20" />
+                  <div className="text-sm text-white/40 font-bold mb-1">Secondary Education</div>
+                  <h4 className="text-lg font-bold">Class X (98.24%)</h4>
+                  <p className="text-white/60">Sri Madhava Vidhyalaya, Mandya</p>
                 </div>
               </div>
             </motion.div>

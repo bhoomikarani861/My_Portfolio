@@ -38,11 +38,13 @@ const Hero = () => {
                 </Link>
                 <a 
                   href="/resume.pdf" 
-                  download="Bhoomikarani_J_Resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
                   className="btn-outline"
                 >
-                  Download Resume <Download size={18} />
+                  View Resume <ExternalLink size={18} />
                 </a>
+
 
               </div>
             </motion.div>
