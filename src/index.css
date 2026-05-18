@@ -6,7 +6,16 @@
   --primary: #f43f5e;
   --secondary: #db2777;
   --accent: #ea580c;
-  --dark-bg: #020617;
+  --primary-400: 251 113 133;
+  --primary-500: 244 63 94;
+  --primary-600: 225 29 72;
+  --secondary-400: 244 114 182;
+  --secondary-500: 219 39 119;
+  --accent-400: 251 146 60;
+  --accent-500: 234 88 12;
+  --dark-bg: 2 6 23;
+  --dark-surface: 15 23 42;
+  --dark-card: 30 41 59;
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.1);
 }
@@ -17,7 +26,12 @@
   }
   
   body {
-    @apply bg-dark-bg text-white antialiased selection:bg-primary-500/30 selection:text-white;
+    @apply bg-dark-bg text-white antialiased;
+  }
+
+  ::selection {
+    background-color: rgb(var(--primary-500) / 0.3);
+    color: white;
   }
 
   h1, h2, h3, h4, h5, h6 {

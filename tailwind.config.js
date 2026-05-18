@@ -13,25 +13,25 @@ export default {
           100: '#ffe4e6',
           200: '#fecdd3',
           300: '#fda4af',
-          400: '#fb7185',
-          500: '#f43f5e', // Rose 500
-          600: '#e11d48', // Rose 600
+          400: 'rgb(var(--primary-400) / <alpha-value>)',
+          500: 'rgb(var(--primary-500) / <alpha-value>)',
+          600: 'rgb(var(--primary-600) / <alpha-value>)',
           700: '#be123c',
           800: '#9f1239',
           900: '#881337',
         },
         secondary: {
-          400: '#f472b6', // Pink 400
-          500: '#db2777', // Pink 600
+          400: 'rgb(var(--secondary-400) / <alpha-value>)',
+          500: 'rgb(var(--secondary-500) / <alpha-value>)',
         },
         accent: {
-          400: '#fb923c', // Orange 400
-          500: '#ea580c', // Orange 600
+          400: 'rgb(var(--accent-400) / <alpha-value>)',
+          500: 'rgb(var(--accent-500) / <alpha-value>)',
         },
         dark: {
-          bg: '#020617', // Deep Slate
-          surface: '#0f172a', // Dark Slate
-          card: '#1e293b', // Slate Card
+          bg: 'rgb(var(--dark-bg) / <alpha-value>)',
+          surface: 'rgb(var(--dark-surface) / <alpha-value>)',
+          card: 'rgb(var(--dark-card) / <alpha-value>)',
         }
       },
       animation: {
